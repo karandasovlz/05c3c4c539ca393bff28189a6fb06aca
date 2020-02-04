@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/fon"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qst2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Гемоглобин (г/л )"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/num10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="3"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qst3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Лейкоциты (уровень)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/num20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="3"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qst4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="СОЭ (клинический анализ крови)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/num30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="3"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Триглицериды (ммоль/л)  "
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="4"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Общий холестерин (ммоль/л)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="4"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Липопротеиды низкой плотности (ммоль/л)  "
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="3"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Холестерин-ЛПВП(ммоль/л)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="4"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Холестерин-ЛПНП(ммоль/л)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="4"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="ЛПОНП (ммоль/л)  "
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="4"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Коэффициент атерогенности"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="4"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#FFFFFF"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Мочевая кислота (мкмоль/л)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="3"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/qstEX59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="ТТГ (тиреотропный гормон) (мЕд/л)"
+                        android:textColor="@color/authui_inputTextColor" />
+
+                    <EditText
+                        android:id="@+id/numEX59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:ems="10"
+                        android:gravity="end"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:maxLength="3"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/butttt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="подтвердить" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

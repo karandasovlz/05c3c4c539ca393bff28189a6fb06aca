@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "72990285595",
+    "firebase_url": "https://kdlapp-f5643.firebaseio.com",
+    "project_id": "kdlapp-f5643",
+    "storage_bucket": "kdlapp-f5643.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72990285595:android:9b6a6da425adc72d",
+        "android_client_info": {
+          "package_name": "com.ht.healthtarget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72990285595-ch6vf9cesbu16na0oik2dk4h2larkd6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kdlapp",
+            "certificate_hash": "cbdbe11403e3ef0c4062d95b2b0e6fa85b837a6d"
+          }
+        },
+        {
+          "client_id": "72990285595-3c922b4c73sloaldnq09rkt5hlkj49hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRu7L3IdEwGjQBrqD-kWjmt1rIT5tkuow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72990285595-3c922b4c73sloaldnq09rkt5hlkj49hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

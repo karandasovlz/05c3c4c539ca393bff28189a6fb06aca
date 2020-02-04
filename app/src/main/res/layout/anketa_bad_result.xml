@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ht.healthtarget.Bad_result"
+    tools:showIn="@layout/app_bar_main3">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text='Согласно федеральному закону №323-ФЗ от 21.11.2011 "Об основах охраны здоровья граждан Российской Федерации" диагноз устанавливает лечащий врач, используя  полную и всестороннюю информацию о пациенте: данные осмотра, анамнеза, других лабораторных и инструментальных исследований.'
+        android:textColor="@color/authui_inputTextColor"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/authui_inputTextColor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="114dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Внимание!"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="317dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Вводимые значения выходят за нормальные пределы."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Предлагаем пройти бесплатную консультацию у специалиста."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="307dp"
+            android:layout_height="77dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text='Нажимая кнопку "Отправить", вы соглашаетесь с отправкой анонимных данных анкетирования для ознакомления с ними врачом.' />
+
+        <EditText
+            android:id="@+id/editText74"
+            android:layout_width="289dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="@drawable/otprav" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Приложение автоматически перешлёт введенные вами данные в анонимном формате."
+            android:textSize="14sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

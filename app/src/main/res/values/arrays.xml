@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questioning1">
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Не знаю</item>
+    </string-array>
+    <string-array name="pol">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <string-array name="pol2">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="qes2">
+        <item>Да</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="ad">
+        <item>default</item>
+        <item>Не знаю</item>
+    </string-array>
+</resources>
